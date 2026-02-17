@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import Signup from './Pages/Signup'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import Login from './Pages/Login'
-import Header from './Component/Header'
+// import Header from './Component/Header'
 import Home from './Pages/Home'
-import ForgotPasswordPage from './pages/ForgotPasswordPage';
-import ResetPasswordPage from "./pages/ResetPasswordPage";
+import ForgotPasswordPage from './Pages/ForgotPasswordPage.jsx';
+import ResetPasswordPage from "./Pages/ResetPasswordPage";
 
 const App = () => {
   return (
